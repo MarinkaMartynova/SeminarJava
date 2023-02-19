@@ -16,7 +16,8 @@ public class homeworkByLesson2 {
         String input4 = removePeriodAtBeginning(input3);
         //System.out.println("удаление пробелов в строке:" + removeExtraSpaces(input4));
         String input5 = removeExtraSpaces(input4);
-        System.out.println("Удаление пробелов перед точками строки:" + removeSpaceBeforePeriod(input5));
+        //System.out.println("Удаление пробелов перед точками строки:" + removeSpaceBeforePeriod(input5));
+        System.out.println("Выходное значение:" + removeSpaceBeforePeriod(input5));
 
         
     } 
