@@ -94,7 +94,7 @@ public class Phonebook {
 
         //вывод на екран описания возможных действий с указанием команд
         System.out.println("Выбор действия:\n (add)добавить данные\n (del)удалить данные\n (num) найти номера по фамилии\n (sur)найти фамилию\n " +
-                            "(save)сохранить\n (exit)выход\n");
+                            "(save)сохранить\n (exit)выход");
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         act = bf.readLine();
@@ -137,7 +137,7 @@ public class Phonebook {
                 }
             }
             //запрос на следующее действие
-            System.out.println("выбор действия: (add)добавить данные\n (del)удалить данные\n (num) найти номера по фамилии\n (sur)найти фамилию\n (save)сохранить\n (exit)выход\n");
+            System.out.println("выбор действия: (add)добавить данные\n (del)удалить данные\n (num) найти номера по фамилии\n (sur)найти фамилию\n (save)сохранить\n (exit)выход");
             act=bf.readLine();
         }
     }
